@@ -1,0 +1,11 @@
+### couplers
+
+Contribute to excessive coupling between classes or show what happens if coupling is overridden by excessive delegation
+
+- Feature envy: when a method accesses data from another class instead of its own data If things change at the same time, they must stay in the same place
+
+- Inappropriate intimacy: When one class uses another class's fields
+
+- Chain of messages: when we have a function or module that calls many other methods or functions through more functions
+
+- Midle man: If a class performs an action and that action is to delegate to another class, then it is unnecessary for that class to exist
